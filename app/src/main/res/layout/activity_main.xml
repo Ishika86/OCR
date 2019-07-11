@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="5dp">
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               app:cardElevation="3dp"
+               app:cardBackgroundColor="#fff"
+               app:cardUseCompatPadding="true"
+               app:cardCornerRadius="3dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:text="Result"
+                       android:textColor="@color/colorPrimaryDark"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="20sp" />
+
+                   <EditText
+                       android:id="@+id/resultEt"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:autoLink="all"
+                       android:background="@null"
+                       android:padding="5dp"
+                       android:textColor="#B12424" />
+
+
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               app:cardElevation="3dp"
+               app:cardBackgroundColor="#fff"
+               app:cardUseCompatPadding="true"
+               app:cardCornerRadius="3dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="15dp">
+
+                   <TextView
+                       android:text="Image Preview"
+                       android:textColor="@color/colorPrimaryDark"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/imagePreview"
+                       android:textSize="20sp" />
+
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="fill_parent"
+                       android:id="@+id/imageIv"
+                       />
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               app:cardElevation="3dp"
+               app:cardBackgroundColor="#fff"
+               app:cardUseCompatPadding="true"
+               app:cardCornerRadius="3dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="5dp">
+
+                   <Button
+                       android:id="@+id/button"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="120dp"
+                       android:background="#4CAF50"
+                       android:text="Speak" />
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+
+       </LinearLayout>
+   </ScrollView>
+
+
+
+</RelativeLayout>
