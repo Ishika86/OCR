@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Read</string>
+    <string name="result">Result</string>
+    <string name="image_preview">Image Preview</string>
+    <string name="speak">Speak</string>
+    <string name="media_volume">Media Volume</string>
+    <string name="title_activity_welcome">OCR</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">OCR</string>
+    <string name="slide_1_desc">The easiest way to scan  text from an image and can listen it...!</string>
+
+    <string name="slide_2_title">Select Image</string>
+    <string name="slide_2_desc">You can select image from either gallery or you can capture it...!</string>
+
+    <string name="slide_3_title">Actions</string>
+    <string name="slide_3_desc">You can flip,rotate or even crop your image according to your requirements...!</string>
+
+    <string name="slide_4_title">Speak</string>
+    <string name="slide_4_desc">You can hear the text of an image by clicking on SPEAK button...!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+
+</resources>
